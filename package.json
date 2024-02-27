@@ -10,13 +10,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https:"
+    "url": "https://github.com/tct68/teaint_div.git"
   },
   "keywords": [
     "tea"
   ],
   "dependencies": {
     "@thirdweb-dev/wallets": "^2.4.11",
-    "ethers": "^5.7.2"
+    "ethers": "^5.7.2",
+    "uniswap_bot_tct": "^1.0.0"
   }
 }
