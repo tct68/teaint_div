@@ -1,0 +1,22 @@
+{
+  "name": "teaint_div",
+  "version": "0.0.2",
+  "description": "TeaInt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TCT",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https:"
+  },
+  "keywords": [
+    "tea"
+  ],
+  "dependencies": {
+    "@thirdweb-dev/wallets": "^2.4.11",
+    "ethers": "^5.7.2"
+  }
+}
