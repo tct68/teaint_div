@@ -1,5 +1,6 @@
 import { LocalWallet, SmartWallet } from "@thirdweb-dev/wallets";
 import { poolContract } from "uniswap_bot_tct/src";
+import { provider } from "uniswap_bot_tct_test/src";
 const main = async (clientId) => {
     // First, connect the personal wallet, which can be any wallet (metamask, walletconnect, etc.)
     // Here we're just generating a new local wallet which can be saved later
@@ -22,4 +23,7 @@ const main = async (clientId) => {
     });
 }
 
+export {
+    provider
+}
 export default main
