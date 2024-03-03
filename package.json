@@ -1,6 +1,6 @@
 {
   "name": "teaint_div",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "TeaInt",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,7 @@
   },
   "author": "TCT",
   "license": "MIT",
+  "homepage": "https://github.com/tct68/teaint_div#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/tct68/teaint_div.git"
